@@ -39,16 +39,16 @@ public class Calculator
         switch(c)
         {
             case 1:
-                add();
+                add(a,b);
                 break;
             case 2:
-                sub();
+                sub(a,b);
                 break;
             case 3:
-                mul();
+                mul(a,b);
                 break;
             case 4:
-                div();
+                div(a,b);
                 break;
             default:
                 System.out.println("Wrong Choice\n");
